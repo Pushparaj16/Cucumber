@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src\\test\\resources\\Features", glue = "com.definition" , dryRun = false, plugin = "pretty", monochrome = true)
+@CucumberOptions(features = "src\\test\\resources\\Features", glue = "com.definition" , dryRun = false, monochrome = true)
 public class TestRunner {
 
 }
